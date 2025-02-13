@@ -1,8 +1,95 @@
-*{
-	font-family: Helvetica;
-	font-size: 22-x;
-	color: seashell;
-	background-color: black; 
-	opacity: 0.9;
-	text-align: center;
+/*  Baseline  */
+* {
+  font-family: Helvetica;
+  font-size: 22-x;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
 }
+
+/*  Header  */
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+body {
+  padding-top: 69px;
+}
+
+/*  Logo  */
+.logo {
+  height: 50px;
+  margin: 9.5px 0px 9.5px 10px;
+}
+
+/*  Nav  */
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-li {
+  margin: 0px 10px;
+}
+
+/*  Top-Banner  */
+.container {
+  position: relative;
+}
+
+.top-words {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/*  Middle-Section  */
+
+.middle {
+  width: 1000px;
+  border: 1px solid blue;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+/*  Top-Cards  */
+#top-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*  Middle-Cards  */
+
+#middle-cards img {
+  height: 200px;
+  width: 300px;
+}
+#middle-cards h4 {
+  margin-top: 10px;
+}
+
+/*  Bottom-Cards  */
+#bottom-cards {
+  display: flex;
+  justify-content: space-around;
+  width: 68%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+/*  Bottom-Section  */
+
+
+/*  Footer  */
